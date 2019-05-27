@@ -1,7 +1,7 @@
 {
-  "name": "oskari-frontend-hsy",
+  "name": "oskari-frontend-valkeakoski",
   "version": "1.0.0",
-  "description": "These are HSY bundles for Oskari. They come with no official support from the core Oskari team.",
+  "description": "These are Valkeakoski bundles for Oskari. They come with no official support from the core Oskari team.",
   "keywords": [
     "Oskari"
   ],
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.sito.fi/scm/hsy/oskari-frontend-hsy.git"
+    "url": "git+https://github.com/Valkeakoski/oskari-frontend-valkeakoski.git"
   },
   "private": true,
   "devDependencies": {
