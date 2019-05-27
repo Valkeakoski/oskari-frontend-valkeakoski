@@ -4,34 +4,34 @@
         "metadata": {
             "Import-Bundle": {
                 "mapmyplaces": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 },
                 "maparcgis": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 },
                 "mapmodule": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 },
                 "oskariui": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 },
                 "mapwfs2": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 },
                 "mapuserlayers": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 },
                 "ui-components": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 },
                 "mapanalysis": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 },
                 "mapfull": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 },
                 "mapwmts": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 }
             }
         }
@@ -40,7 +40,7 @@
         "metadata": {
             "Import-Bundle": {
                 "divmanazer": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -50,7 +50,7 @@
         "metadata" : {
             "Import-Bundle" : {
                 "drawtools" : {
-                    "bundlePath" : "../../../packages/mapping/ol3/"
+                    "bundlePath" : "oskari-frontend/packages/mapping/ol3/"
                 }
             }
         }
@@ -59,7 +59,7 @@
         "metadata": {
             "Import-Bundle": {
                 "toolbar": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 }
             }
         }
@@ -68,7 +68,7 @@
         "metadata": {
             "Import-Bundle": {
                 "statehandler": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -77,7 +77,7 @@
         "metadata": {
             "Import-Bundle": {
                 "infobox": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 }
             }
         }
@@ -86,7 +86,7 @@
         "metadata": {
             "Import-Bundle": {
                 "search": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -95,7 +95,7 @@
         "metadata": {
             "Import-Bundle": {
                 "metadatacatalogue": {
-                    "bundlePath": "../../../packages/catalogue/"
+                    "bundlePath": "oskari-frontend/packages/catalogue/"
                 }
             }
         }
@@ -104,7 +104,7 @@
         "metadata": {
             "Import-Bundle": {
                 "layerselector2": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -113,7 +113,7 @@
         "metadata": {
             "Import-Bundle": {
                 "layerselection2": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -122,7 +122,7 @@
         "metadata": {
             "Import-Bundle": {
                 "personaldata": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -131,7 +131,7 @@
         "metadata": {
             "Import-Bundle": {
                 "publisher2": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -140,7 +140,7 @@
         "metadata": {
             "Import-Bundle": {
                 "maplegend": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -149,7 +149,7 @@
         "metadata": {
             "Import-Bundle": {
                 "userguide": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -158,7 +158,7 @@
         "metadata": {
             "Import-Bundle": {
                 "metadataflyout": {
-                    "bundlePath": "../../../packages/catalogue/bundle/"
+                    "bundlePath": "oskari-frontend/packages/catalogue/bundle/"
                 }
             }
         }
@@ -167,7 +167,7 @@
         "metadata": {
             "Import-Bundle": {
                 "featuredata2": {
-                    "bundlePath": "../../../packages/framework/"
+                    "bundlePath": "oskari-frontend/packages/framework/"
                 }
             }
         }
@@ -176,7 +176,7 @@
         "metadata": {
             "Import-Bundle": {
                 "myplaces3": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -185,7 +185,7 @@
         "metadata": {
             "Import-Bundle": {
                 "guidedtour": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -194,7 +194,7 @@
         "metadata": {
             "Import-Bundle": {
                 "backendstatus": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -203,7 +203,7 @@
         "metadata": {
             "Import-Bundle": {
                 "printout": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -212,7 +212,7 @@
         "metadata": {
             "Import-Bundle": {
                 "postprocessor": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -221,7 +221,7 @@
         "metadata": {
             "Import-Bundle": {
                 "statsgrid": {
-                    "bundlePath": "../../../packages/statistics/"
+                    "bundlePath": "oskari-frontend/packages/statistics/"
                 }
             }
         }
@@ -230,7 +230,7 @@
         "metadata": {
             "Import-Bundle": {
                 "coordinatetool": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -239,7 +239,7 @@
         "metadata": {
             "Import-Bundle": {
                 "analyse": {
-                    "bundlePath": "../../../packages/analysis/ol3/"
+                    "bundlePath": "oskari-frontend/packages/analysis/ol3/"
                 }
             }
         }
@@ -248,7 +248,7 @@
         "metadata": {
             "Import-Bundle": {
                 "myplacesimport": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -257,7 +257,7 @@
         "metadata": {
             "Import-Bundle": {
                 "search-from-channels": {
-                    "bundlePath": "../../../packages/tampere/bundle/"
+                    "bundlePath": "oskari-frontend/packages/tampere/bundle/"
                 }
             }
         }
@@ -266,7 +266,7 @@
         "metadata" : {
             "Import-Bundle" : {
                 "heatmap" : {
-                    "bundlePath" : "../../../packages/mapping/ol3/"
+                    "bundlePath" : "oskari-frontend/packages/mapping/ol3/"
                 }
             }
         }
@@ -275,7 +275,7 @@
         "metadata": {
             "Import-Bundle": {
                 "timeseries": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -284,7 +284,7 @@
         "metadata": {
             "Import-Bundle": {
                 "maprotator": {
-                    "bundlePath": "../../../packages/mapping/ol3/"
+                    "bundlePath": "oskari-frontend/packages/mapping/ol3/"
                 }
             }
         }
@@ -293,7 +293,7 @@
         "metadata": {
             "Import-Bundle": {
                 "selected-featuredata": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -302,7 +302,7 @@
         "metadata": {
             "Import-Bundle": {
                 "content-editor": {
-                    "bundlePath": "../../../packages/tampere/bundle/"
+                    "bundlePath": "oskari-frontend/packages/tampere/bundle/"
                 }
             }
         }
@@ -311,10 +311,10 @@
         "metadata": {
             "Import-Bundle": {
                 "admin-layerselector": {
-                    "bundlePath": "../../../packages/integration/bundle/"
+                    "bundlePath": "oskari-frontend/packages/integration/bundle/"
                 },
                 "bb": {
-                    "bundlePath": "../../../packages/integration/bundle/"
+                    "bundlePath": "oskari-frontend/packages/integration/bundle/"
                 }
             }
         }
@@ -323,7 +323,7 @@
         "metadata": {
             "Import-Bundle": {
                 "admin-layerrights": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -332,7 +332,7 @@
         "metadata": {
             "Import-Bundle": {
                 "admin": {
-                    "bundlePath": "../../../packages/admin/bundle/"
+                    "bundlePath": "oskari-frontend/packages/admin/bundle/"
                 }
             }
         }
@@ -341,7 +341,7 @@
         "metadata": {
             "Import-Bundle": {
                 "admin-users": {
-                    "bundlePath": "../../../packages/framework/bundle/"
+                    "bundlePath": "oskari-frontend/packages/framework/bundle/"
                 }
             }
         }
@@ -350,7 +350,7 @@
         "metadata": {
             "Import-Bundle": {
                 "admin-wfs-search-channel": {
-                    "bundlePath": "../../../packages/tampere/bundle/"
+                    "bundlePath": "oskari-frontend/packages/tampere/bundle/"
                 }
             }
         }
