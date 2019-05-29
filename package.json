@@ -1,28 +1,26 @@
 {
   "name": "oskari-frontend-valkeakoski",
   "version": "1.0.0",
-  "description": "These are Valkeakoski bundles for Oskari. They come with no official support from the core Oskari team.",
+  "description": "kartat.vlk.fi bundles & app conf",
   "keywords": [
     "Oskari"
   ],
   "dependencies": {
+    "olcs": "^2.7.2",
     "oskari-frontend": "file:../oskari-frontend",
-    "oskari-frontend-contrib": "file:../oskari-frontend-contrib"
+    "oskari-frontend-contrib": "file:../oskari-frontend-contrib",
+    "toastr": "2.1.4"
   },
   "scripts": {
     "build": "node ./node_modules/oskari-frontend/node_modules/webpack/bin/webpack.js --config ./node_modules/oskari-frontend/webpack.config.js --mode production",
-    "start": "node ./node_modules/oskari-frontend/node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./node_modules/oskari-frontend/webpack.config.js --hot --env.appdef=applications/hsy",
+    "start": "node ./node_modules/oskari-frontend/node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./node_modules/oskari-frontend/webpack.config.js --hot --env.appdef=applications/valkeakoski",
     "test": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Valkeakoski/oskari-frontend-valkeakoski.git"
   },
   "private": true,
   "devDependencies": {
     "eslint": "^4.6.1",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "2.13.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1"
