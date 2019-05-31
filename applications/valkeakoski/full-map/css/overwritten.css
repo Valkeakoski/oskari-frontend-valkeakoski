@@ -1,6 +1,8 @@
 table td {
   text-align: left;
-  vertical-align: top; }
+  vertical-align: top;
+
+}
 
 table {
   border-top-width: 0px; }
@@ -19,6 +21,10 @@ table {
   align-items: center;
 }
 
+#logos table td {
+    padding: 0;
+}
+
 div.vaakuna_logo {
   display: block;
   -moz-box-sizing: border-box;
@@ -29,5 +35,7 @@ div.vaakuna_logo {
 
 div.vaakuna_logo.valkeakoski {
     background: url('../vaakuna.png') no-repeat;
-    height: 19px;
+    height: 30px;
+    position: absolute;
+    left: 16px;
 }
