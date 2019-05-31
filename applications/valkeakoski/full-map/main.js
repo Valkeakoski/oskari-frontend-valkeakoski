@@ -44,6 +44,10 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/feedbackService/
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/timeseries/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/mapping/ol3/maprotator/bundle.js';
 
+import 'oskari-loader!oskari-frontend/packages/framework/bundle/hierarchical-layerlist/bundle.js';
+
+import 'oskari-loader!oskari-frontend/packages/admin/bundle/admin-hierarchical-layerlist/bundle.js';
+
 import 'oskari-lazy-loader?admin-layerselector!oskari-frontend/packages/integration/bundle/admin-layerselector/bundle.js';
 import 'oskari-lazy-loader?admin-layerselector!oskari-frontend/packages/integration/bundle/bb/bundle.js';
 import 'oskari-lazy-loader?admin-layerrights!oskari-frontend/packages/framework/bundle/admin-layerrights/bundle.js';
