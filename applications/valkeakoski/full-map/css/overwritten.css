@@ -4,3 +4,30 @@ table td {
 
 table {
   border-top-width: 0px; }
+
+#logosDiv {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+#logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.vaakuna_logo {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 40px;
+  padding-left: 40px;
+}
+
+div.vaakuna_logo.valkeakoski {
+    background: url('../vaakuna.png') no-repeat;
+    height: 19px;
+}
