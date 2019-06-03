@@ -48,10 +48,14 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/hierarchical-lay
 
 import 'oskari-loader!oskari-frontend/packages/admin/bundle/admin-hierarchical-layerlist/bundle.js';
 
+import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/admin-wfs-search-channel/bundle.js';
+import 'oskari-loader!oskari-frontend-contrib/packages/tampere/bundle/search-from-channels/bundle.js';
+
 import 'oskari-lazy-loader?admin-layerselector!oskari-frontend/packages/integration/bundle/admin-layerselector/bundle.js';
 import 'oskari-lazy-loader?admin-layerselector!oskari-frontend/packages/integration/bundle/bb/bundle.js';
 import 'oskari-lazy-loader?admin-layerrights!oskari-frontend/packages/framework/bundle/admin-layerrights/bundle.js';
 import 'oskari-lazy-loader?admin!oskari-frontend/packages/admin/bundle/admin/bundle.js';
 import 'oskari-lazy-loader?metrics!oskari-frontend/packages/admin/bundle/metrics/bundle.js';
 import 'oskari-lazy-loader?appsetup!oskari-frontend/packages/admin/bundle/appsetup/bundle.js';
+
 import './css/overwritten.css';
