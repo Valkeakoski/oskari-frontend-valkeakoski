@@ -21,6 +21,8 @@ import 'oskari-loader!oskari-frontend/packages/mapping/ol3/maprotator/bundle.js'
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/postprocessor/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/rpc/bundle.js';
 
+import 'oskari-loader!../../../packages/valkeakoski/bundle/track-location/bundle.js';
+
 import 'oskari-lazy-loader?maplegend!oskari-frontend/packages/framework/bundle/maplegend/bundle.js';
 import 'oskari-lazy-loader?divmanazer!oskari-frontend/packages/framework/bundle/divmanazer/bundle.js';
 import 'oskari-lazy-loader?featuredata2!oskari-frontend/packages/framework/featuredata2/bundle.js';
