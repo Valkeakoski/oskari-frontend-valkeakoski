@@ -41,7 +41,6 @@ import 'oskari-loader!oskari-frontend/packages/mapping/ol3/heatmap/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/coordinatetool/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/routingService/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/feedbackService/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/framework/bundle/timeseries/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/mapping/ol3/maprotator/bundle.js';
 
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/hierarchical-layerlist/bundle.js';
