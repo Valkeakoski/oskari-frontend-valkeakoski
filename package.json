@@ -7,22 +7,17 @@
   ],
   "dependencies": {
     "olcs": "^2.7.2",
-    "oskari-frontend": "file:../oskari-frontend",
-    "oskari-frontend-contrib": "file:../oskari-frontend-contrib",
-    "toastr": "2.1.4"
+    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#1.56.0",
+    "oskari-frontend-contrib": "https://git@github.com/oskariorg/oskari-frontend-contrib.git#1.56.0"
   },
   "scripts": {
     "build": "node ./node_modules/oskari-frontend/node_modules/webpack/bin/webpack.js --config ./node_modules/oskari-frontend/webpack.config.js --mode production",
     "start": "node ./node_modules/oskari-frontend/node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./node_modules/oskari-frontend/webpack.config.js --hot --env.appdef=applications/valkeakoski",
     "test": "eslint ."
   },
-  "private": true,
-  "devDependencies": {
-    "eslint": "^4.6.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valkeakoski/oskari-frontend-valkeakoski.git"
+  },
+  "private": true
 }
