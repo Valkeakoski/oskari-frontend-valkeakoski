@@ -27,5 +27,5 @@ Now all are installed and you can test it when jetty starts (if not then try to 
 
 If you need minifying front-end code separately, run following:
 ```
-npm run build -- --env.appdef=1.00:applications/valkeakoski
+npm run build
 ```
