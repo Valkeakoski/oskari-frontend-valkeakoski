@@ -1,14 +1,13 @@
 {
   "name": "oskari-frontend-valkeakoski",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "kartat.vlk.fi bundles & app conf",
   "keywords": [
     "Oskari"
   ],
   "dependencies": {
-    "olcs": "^2.7.2",
-    "oskari-frontend": "https://git@github.com/oskariorg/oskari-frontend.git#1.56.0",
-    "oskari-frontend-contrib": "https://git@github.com/oskariorg/oskari-frontend-contrib.git#1.56.0"
+    "oskari-frontend": "git+https://git@github.com/oskariorg/oskari-frontend.git#2.5.1",
+    "oskari-frontend-contrib": "git+https://git@github.com/oskariorg/oskari-frontend-contrib.git#2.5.1"
   },
   "scripts": {
     "dev-mode": "node ./node_modules/oskari-frontend/scripts/oskari-dev-mode",
@@ -23,7 +22,6 @@
     "start:dev": "npm run dev-mode:on && node ./node_modules/oskari-frontend/node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./node_modules/oskari-frontend/webpack.config.js --hot --env.appdef=devapp:applications/valkeakoski",
     "build:dev": "npm run dev-mode:on && node ./node_modules/oskari-frontend/node_modules/webpack/bin/webpack.js --config ./node_modules/oskari-frontend/webpack.config.js --mode production --progress --env.appdef=applications/valkeakoski",
     "sprite": "node ./node_modules/oskari-frontend/webpack/sprite.js",
-    "postinstall": "npm run dev-mode && node ./node_modules/oskari-frontend/scripts/copy-cesium",
     "test": "eslint --config ./node_modules/oskari-frontend/.eslintrc.js bundles",
     "storybook": "npm run dev-mode:off && start-storybook"
   },
@@ -31,5 +29,13 @@
     "type": "git",
     "url": "git+https://github.com/Valkeakoski/oskari-frontend-valkeakoski.git"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
